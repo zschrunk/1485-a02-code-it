@@ -16,29 +16,42 @@ body{
 	margin: 0 auto;
 }
 
-.columns3{
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+.column-features{
+	background-color: gray;
+	width: 33%;
+	float: left;
 }
 
-.columns5{
-    -webkit-column-count: 5; /* Chrome, Safari, Opera */
-    -moz-column-count: 5; /* Firefox */
-    column-count: 5;
-	-webkit-column-gap: 10px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 10px; /* Firefox */
-    column-gap: 10px;
+#gallery{
+	clear: both;
 }
 
-.columns4{
-    -webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
-	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 20px; /* Firefox */
-    column-gap: 20px;
+.column-about{
+	background-color: gray;
+	width: 25%;
+	float: left;
+}
+
+.quote-mark{
+	clear: both;
+}
+
+.column-footer{
+	background-color: gray;
+	width: 25%;
+	float: left;
+}
+
+.column-screen{
+	background-color: gray;
+	width: 20%;
+	float: left;
+}
+
+.column-screen img{
+	width: 100%;
+}
+
+.show-reel{
+	clear: both;
 }
