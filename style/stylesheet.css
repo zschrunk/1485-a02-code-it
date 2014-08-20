@@ -6,28 +6,68 @@ body{
 	padding: 0;
 }
 
+h1, h2, h3, label, p, li, a{
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+nav li{
+	float: left;
+	display: inline;
+}
+
+nav a{
+	display: block;
+	width: 50px;
+	padding-right: 70px;
+}
+
+.logo{
+	float: left;
+}
+
+nav{
+	width: 40%;
+	float: right;
+}
+
 #home{
-	background-color: yellow;
+	background-color: #f8e514;
 }
 
 .wrapper{
 	max-width: 1170px;
-	background-color: aqua;
+	background-color: ;
 	margin: 0 auto;
 }
 
-.column-features{
-	background-color: gray;
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.column-features, .column-screen{
+	background-color: ;
 	width: 33%;
-	float: left;
+	float: left;	
+	padding-right: 30px;
+}
+
+.column-features img, .column-screen img{
+	width: 100%;
 }
 
 #gallery{
 	clear: both;
 }
 
-.column-about{
-	background-color: gray;
+.column-about, .column-footer{
+	background-color: ;
 	width: 25%;
 	float: left;
 }
@@ -36,16 +76,8 @@ body{
 	clear: both;
 }
 
-.column-footer{
-	background-color: gray;
-	width: 25%;
-	float: left;
-}
-
 .column-screen{
-	background-color: gray;
 	width: 20%;
-	float: left;
 }
 
 .column-screen img{
@@ -53,5 +85,9 @@ body{
 }
 
 .show-reel{
+	clear: both;
+}
+
+.clear{
 	clear: both;
 }
