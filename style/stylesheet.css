@@ -37,6 +37,10 @@ nav{
 	width: 100%;
 }
 
+#about{
+	background-color: #fafafa;
+}
+
 .wrapper{
 	max-width: 1170px;
 	background-color: ;
@@ -50,7 +54,6 @@ nav{
 }
 
 .column-features, .column-screen{
-	background-color: ;
 	width: 33%;
 	float: left;	
 	padding-right: 30px;
@@ -76,4 +79,43 @@ nav{
 
 .column-screen img{
 	width: 100%;
+}
+
+.home-image{
+	position: absolute;
+  	bottom: 25px;
+  	right: 0;
+  	z-index: 0;
+}
+
+.intro{
+  	float: left;
+  	width: 45%;
+  	margin-top: 350px;
+}
+
+header{
+  	background: white;
+  	overflow: auto;
+  	position: fixed;
+  	top: 30px;
+  	width: 100%;
+  	max-width: 1170px;
+  	margin: 0 auto;
+  	z-index: 1;
+}
+
+#home{
+  	background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
+  	background-height: 100%;
+  	min-height: 780px;
+}
+
+#gallery{
+	background-color: #fafafa;
+}
+
+.blockquote{
+	width: 970px;
+	text-align: center;
 }
