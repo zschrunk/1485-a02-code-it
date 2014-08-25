@@ -6,6 +6,36 @@ body{
 	padding: 0;
 }
 
+.home-image{
+	position: absolute;
+  	bottom: 25px;
+  	right: 0;
+  	z-index: 0;
+}
+
+.intro{
+  	float: left;
+  	width: 45%;
+  	margin-top: 350px;
+}
+
+header{
+  	background: white;
+  	overflow: auto;
+  	position: fixed;
+  	top: 30px;
+  	width: 100%;
+  	max-width: 1170px;
+  	margin: 0 auto;
+  	z-index: 1;
+}
+
+#home{
+  	background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
+  	background-height: 100%;
+  	min-height: 780px;
+}
+
 h1, h2, h3, p, li, a{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -18,9 +48,15 @@ nav li{
 }
 
 nav a{
+	color: grey;
 	display: block;
 	width: 50px;
 	padding-right: 70px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:black;
 }
 
 .logo{
@@ -63,7 +99,7 @@ nav{
 	width: 100%;
 }
 
-#gallery, .quote-mark, .show-reel, .clear{
+#gallery, .quote-mark, .show-reel, .clear, .column-footer{
 	clear: both;
 }
 
@@ -81,36 +117,6 @@ nav{
 	width: 100%;
 }
 
-.home-image{
-	position: absolute;
-  	bottom: 25px;
-  	right: 0;
-  	z-index: 0;
-}
-
-.intro{
-  	float: left;
-  	width: 45%;
-  	margin-top: 350px;
-}
-
-header{
-  	background: white;
-  	overflow: auto;
-  	position: fixed;
-  	top: 30px;
-  	width: 100%;
-  	max-width: 1170px;
-  	margin: 0 auto;
-  	z-index: 1;
-}
-
-#home{
-  	background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
-  	background-height: 100%;
-  	min-height: 780px;
-}
-
 #gallery{
 	background-color: #fafafa;
 }
@@ -118,4 +124,44 @@ header{
 .blockquote{
 	width: 970px;
 	text-align: center;
+}
+
+#contact img{
+	float: right;
+}
+
+input{
+	width: 570px;
+	border: 0px solid #000000;
+	border-bottom-width: 1px;
+	background-color: transparent;
+}
+
+h4{
+	margin: 0;
+}
+
+.feature-details {
+  padding:20px;
+  overflow:auto;
+  cursor:default;
+}
+
+.feature-details:hover{
+	background: #fefce9; 
+	width:100%;
+	display:block;
+}
+
+.feature-details span {
+  float:left;
+  font-size:30px;
+  line-height:30px;
+  width:15%;
+  margin-top:0;
+}
+
+.feature-content {
+  width:85%;
+  float:left;
 }
