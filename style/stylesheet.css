@@ -14,6 +14,10 @@ h2{
 	text-align: center;
 }
 
+ul{
+	list-style: none;
+}
+
 .section-description{
 	text-height: 25px;
 	font-size: 15px;
@@ -138,7 +142,6 @@ nav{
 }
 
 .column-about, .column-footer{
-	background-color: ;
 	width: 25%;
 	float: left;
 }
@@ -176,32 +179,32 @@ footer input{
 }
 
 h4{
-	margin: 0;
+	margin: 0; 
 }
 
 .feature-details {
-  padding:20px;
-  overflow:auto;
-  cursor:default;
+  padding: 20px;
+  overflow: auto;
+  cursor: pointer;
 }
 
 .feature-details:hover{
 	background: #fefce9; 
-	width:100%;
-	display:block;
+	width: 100%;
+	display: block;
 }
 
 .feature-details span {
-  float:left;
-  font-size:30px;
-  line-height:30px;
-  width:15%;
-  margin-top:0;
+  float: left;
+  font-size: 30px;
+  line-height: 30px;
+  width: 15%;
+  margin-top: 0;
 }
 
 .feature-content {
-  width:85%;
-  float:left;
+  width: 85%;
+  float: left;
 }
 
 .container{
