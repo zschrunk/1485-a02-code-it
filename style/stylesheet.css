@@ -65,7 +65,7 @@ header{
 }
 
 #home{
-  	background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
+  	background: #f8e514 url("../image/header-background.png") no-repeat center;
   	background-height: 100%;
   	min-height: 780px;
 }
@@ -111,6 +111,11 @@ nav{
 	height: 500px;
 }
 
+#featuredin img{
+	padding-top: 200px;
+	padding-left: 60px;
+}
+
 #about{
 	background-color: #fafafa;
 }
@@ -131,6 +136,7 @@ nav{
 	width: 33%;
 	float: left;	
 	padding-right: 30px;
+	padding-top: 80px;
 }
 
 .column-features img, .column-screen img{
@@ -159,7 +165,6 @@ nav{
 }
 
 .blockquote{
-	width: 970px;
 	text-align: center;
 }
 
@@ -167,15 +172,11 @@ nav{
 	float: right;
 }
 
-input{
+#contact input{
 	width: 570px;
 	border: 0px solid #000000;
 	border-bottom-width: 1px;
 	background-color: transparent;
-}
-
-footer input{
-	width: 260px;
 }
 
 h4{
@@ -237,17 +238,56 @@ a.container:hover span{
   display: block;
 }
 
-input{
-	width: 100%;
-	border: 0;
-	border-bottom: 1px solid #ccc;
-	padding: 25px 0;
-	font-size: 12px;
+
+
+
+
+
+.contact ul {
+	padding-bottom: 40px;
 }
 
-input:focus{
+.contact-info{
+	padding-top: 150px;
+}
+
+.contact-info input {
+	padding: 25px 0;
+	color: gray;
+	width: 570px;
+	border: 0px solid #000000;
+    border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+    background-color: transparent;
+}
+
+.contact-info input:focus {
 	outline: 0;
 }
+
+.contact a, #contact button {
+	color: black;
+	border: none;
+	text-decoration: none;
+	background-color: transparent;
+  font-size: 20px;
+}
+
+.contact-info a {
+	text-decoration: none;
+	color:black;
+}
+
+.contact a:hover {
+	opacity: .5;
+}
+
+
+
+
+
+
+
 
 button{
 	border:0;
@@ -272,4 +312,50 @@ button:hover{
 	text-height: 25px;
 	text-size: 12px;
 	text-align: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    border:4px solid #000;
+}
+
+.form-wrapper input {
+	padding: 25px 0;
+    padding: 10px 5px;
+    float: left;   
+    border: 0;  
+	width: 0%;  
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+}
+
+.form-wrapper button {
+    font-size:25px;
+    width:15%;
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #ccc;
+    text-transform: uppercase;
+    background:transparent;
+	margin-top: 0;
+}
+
+.clear:before, .clear:after{
+    content:"";
+    display:table;
+}
+
+.clear:after{
+    clear:both;
+}
+
+.clear{
+    zoom:1;
 }
