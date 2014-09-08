@@ -12,10 +12,10 @@ body, p{
 
 h2{
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 40px;
 }
 
-ul{
+#home ul{
 	list-style: none;
 }
 
@@ -121,7 +121,7 @@ nav{
 	padding-left: 60px;
 }
 
-#about{
+#about, #gallery{
 	background-color: #fafafa;
 }
 
@@ -165,10 +165,6 @@ nav{
 	width: 100%;
 }
 
-#gallery{
-	background-color: #fafafa;
-}
-
 .blockquote{
 	text-align: center;
 }
@@ -177,8 +173,9 @@ nav{
 	padding-top: 80px;
 }
 
-#contact img{
+.contact-image{
 	float: right;
+	padding-top: 100px;
 }
 
 #contact input{
@@ -374,11 +371,17 @@ button:hover{
     zoom:1;
 }
 
+.contact-info ul{
+	list-style: none;
+	padding-top: 100px;
+}
+	
 .social-network ul {
 	width: 10%;
-	padding-top: 300px;
 	color: white;
+	padding-top: 300px;
 	overflow: auto;
+	float: right;
 }
 
 .social-network li {
@@ -391,4 +394,9 @@ button:hover{
 
 .pe-7s-mail {
 	padding-right: 5px;
+}
+
+footer ul{
+	list-style: none;
+	text-decoration: none;
 }
