@@ -12,6 +12,7 @@ body, p{
 
 h2{
 	text-align: center;
+	padding-top: 30px;
 }
 
 ul{
@@ -70,7 +71,11 @@ header{
   	min-height: 780px;
 }
 
-h1, h2, h3, p, li, a{
+#home ul{
+	padding-bottom: 20px;
+}
+
+h1, h2, h3, p, li, a, h4{
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -168,6 +173,10 @@ nav{
 	text-align: center;
 }
 
+.blockquote img{
+	padding-top: 80px;
+}
+
 #contact img{
 	float: right;
 }
@@ -229,13 +238,18 @@ a.container span{
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0,0,0,0.6);
-  color: #ddd;
+  background: #f8e514;
+  color: #000;
   padding: 20px;
 }
 
 a.container:hover span{
   display: block;
+}
+
+.show-reel{
+	text-align: center;
+	font-size: 20px;
 }
 
 
@@ -270,7 +284,7 @@ a.container:hover span{
 	border: none;
 	text-decoration: none;
 	background-color: transparent;
-  font-size: 20px;
+  	font-size: 20px;
 }
 
 .contact-info a {
@@ -358,4 +372,23 @@ button:hover{
 
 .clear{
     zoom:1;
+}
+
+.social-network ul {
+	width: 10%;
+	padding-top: 300px;
+	color: white;
+	overflow: auto;
+}
+
+.social-network li {
+	padding-bottom: 20px;
+}
+
+.social-network img:hover {
+	opacity: .5;
+}
+
+.pe-7s-mail {
+	padding-right: 5px;
 }
